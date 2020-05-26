@@ -2,11 +2,6 @@ svg {
   overflow: visible;
 }
 
-.bar-chart {
-  margin:auto;
-  padding: 40px;
-}
-
 path {
   stroke-width: 0.25px;
 }
