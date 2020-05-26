@@ -1,0 +1,47 @@
+svg {
+  overflow: visible;
+}
+
+.bar-chart {
+  margin:auto;
+  padding: 40px;
+}
+
+path {
+  stroke-width: 0.25px;
+}
+
+h4 {
+  text-align: center;
+  background-color: darkgray;
+  margin: 0px;
+  padding: 10px;
+}
+
+body {
+  background-color: #ccc;
+  font-family: 'Lato', sans-serif;
+}
+
+#tooltip {
+  position: absolute;
+  opacity: 0;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+  font-size: 14px;
+  box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.4);
+}
+
+.label {
+  font-size: 14px;
+}
+
+#tooltip img {
+  width: 20px;
+  height: 10px;
+  margin-right: 5px;
+  border: 1px solid #dddddd;
+}
